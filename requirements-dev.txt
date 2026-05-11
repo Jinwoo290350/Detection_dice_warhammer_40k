@@ -1,0 +1,21 @@
+# Dev dependencies (Mac local + Kaggle training)
+# ติดตั้งทับ requirements.txt: pip install -r requirements.txt -r requirements-dev.txt
+
+-r requirements.txt
+
+# Training & model export
+ultralytics>=8.3
+torch>=2.4
+torchvision>=0.19
+
+# Notebooks & visualization
+jupyter
+ipykernel
+matplotlib
+pillow
+
+# Annotation helpers (optional — ใช้ Roboflow web UI เป็นหลัก)
+roboflow
+
+# Testing
+pytest

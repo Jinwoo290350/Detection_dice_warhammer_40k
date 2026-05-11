@@ -1,0 +1,36 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Customer data (large + private) — DO NOT COMMIT
+Data/
+
+# Generated datasets & artifacts (regenerate from source)
+frames/
+dataset/
+classifier_dataset/
+classifier_split/
+models/*.pt
+models/pretrained/
+runs/
+tests/_tmp/
+
+# Build outputs (ZIPs are large; rebuild with provided scripts)
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

@@ -1,0 +1,12 @@
+# Runtime dependencies (สำหรับ deliverable ที่ส่งลูกค้า — Windows + Intel)
+# ห้ามใช้ CUDA/MPS — final inference ผ่าน OpenVINO เท่านั้น
+
+openvino>=2024.4
+opencv-python>=4.10
+numpy>=1.26
+pyyaml>=6.0
+tqdm>=4.66
+
+# HTTP API (for Angular / web frontends)
+flask>=3.0
+flask-cors>=4.0

@@ -1,0 +1,11 @@
+# Runtime dependencies — Windows + Intel
+# Install once with: pip install -r requirements.txt
+
+ultralytics>=8.4
+openvino>=2024.4
+opencv-python>=4.10
+numpy>=1.26
+
+# HTTP API for Angular / web frontends
+flask>=3.0
+flask-cors>=4.0
